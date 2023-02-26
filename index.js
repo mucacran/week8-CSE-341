@@ -15,7 +15,7 @@ app.use(
     auth0Logout: true,
     issuerBaseURL: process.env.ISSUER_BASE_URL,
     clientID: process.env.CLIENT_ID,
-    baseURL: process.env.BASE_URL+port,
+    baseURL: process.env.BASE_URL,
     secret: process.env.SECRET,
     idpLogout: true,
   })
