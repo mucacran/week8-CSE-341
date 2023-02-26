@@ -7,7 +7,7 @@ app.listen(port,()=>{
     console.log(`escuchando en el puerto ${port} pilas`);
 });
 
-// index.js
+
 const { auth,requiresAuth } = require('express-openid-connect');
 app.use(
   auth({
